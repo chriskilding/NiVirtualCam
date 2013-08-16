@@ -30,3 +30,12 @@ ipch
 *.opensdf
 *.sdf
 !NiVirtualCam-Win-v*.exe
+
+# OpenNI and NiTE Redist/ bits
+# they have to be in the same working dir as the project
+# but we don't want them in version control
+PS1080.ini
+OpenNI.ini
+NiTE.ini
+NiTE2/
+OpenNI2/

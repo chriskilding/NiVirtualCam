@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NiVirtualCam", "NiVirtualCam\NiVirtualCam.vcxproj", "{60AC2CB9-09C0-4906-8236-F8613BD482DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NiVirtualCamFilter", "NiFilter\NiFilter.vcxproj", "{9D3C9114-5067-45E6-B83D-12D31EF86297}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupNiVirtualCam", "SetupNiVirtualCam\SetupNiVirtualCam.vdproj", "{215A2082-8BD4-4AB4-9D7D-B259B5BF68F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AC2CB9-09C0-4906-8236-F8613BD482DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60AC2CB9-09C0-4906-8236-F8613BD482DF}.Debug|Win32.Build.0 = Debug|Win32
+		{60AC2CB9-09C0-4906-8236-F8613BD482DF}.Release|Win32.ActiveCfg = Release|Win32
+		{60AC2CB9-09C0-4906-8236-F8613BD482DF}.Release|Win32.Build.0 = Release|Win32
+		{9D3C9114-5067-45E6-B83D-12D31EF86297}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D3C9114-5067-45E6-B83D-12D31EF86297}.Debug|Win32.Build.0 = Debug|Win32
+		{9D3C9114-5067-45E6-B83D-12D31EF86297}.Release|Win32.ActiveCfg = Release|Win32
+		{9D3C9114-5067-45E6-B83D-12D31EF86297}.Release|Win32.Build.0 = Release|Win32
+		{215A2082-8BD4-4AB4-9D7D-B259B5BF68F0}.Debug|Win32.ActiveCfg = Debug
+		{215A2082-8BD4-4AB4-9D7D-B259B5BF68F0}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

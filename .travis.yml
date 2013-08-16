@@ -1,0 +1,10 @@
+language: csharp
+
+mono:
+  - latest
+
+sudo: false
+
+solution: NiVirtualCam.sln
+
+script: echo 'Project CI is compile-only for now'

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>pcl-streamer WebsocketWriter client</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+			console.log("hoi");
+            var connection = new WebSocket('ws://localhost:4000');
+
+            // When the connection is open, send some data to the server
+            connection.onopen = function () {
+                connection.send('Ping'); // Send the message 'Ping' to the server
+            };
+            
+            // Log errors
+            connection.onerror = function (error) {
+                console.log('WebSocket Error', error);
+            };
+            
+            // Log messages from the server
+            connection.onmessage = function (e) {
+                console.log('Server', e.data);
+            };
+        </script>
+    </body>
+</html>

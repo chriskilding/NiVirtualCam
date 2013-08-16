@@ -15,7 +15,9 @@
     <ClCompile Include="NiVirtualCam.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ErrorBitmap.bin" />
+    <None Include="ErrorBitmap.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="NiVirtualCam.def" />
   </ItemGroup>
   <ItemGroup>
@@ -35,6 +37,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
